@@ -69,7 +69,10 @@ function User() {
       }));
 
     const workbook = XLSX.utils.book_new();
-    const worksheet = XLSX.utils.json_to_sheet(data);
+    const worksheet = XLSX.utils.json_to_sheet(data, {
+      header: ["CustomHeader1", "CustomHeader2", "CustomHeader3"], // Specify headers
+  });
+  
     XLSX.utils.book_append_sheet(workbook, worksheet, "Transaction Data");
     XLSX.writeFile(
       workbook,
@@ -296,7 +299,7 @@ function User() {
   };
   useEffect(() => {
     request({
-      url: `/admin/user/get-list/User?status=${filter ? filter.join(",") : ""
+      url: `/admin/school/get-list/User?status=${filter ? filter.join(",") : ""
         }&search=${debouncedSearchText}&start_date=${startDate ? startDate : ""
         }&end_date=${endDate ? endDate : ""}`,
       method: "GET",

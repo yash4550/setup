@@ -1,0 +1,208 @@
+@media (min-width: 992px) {
+  .layout-dashboard .ant-layout-footer {
+    margin: 0;
+  }
+  .layout-dashboard .ant-layout-sider.sider-primary {
+    margin: 20px 0 0 20px;
+    padding: 13px 20px;
+    height: 100vh;
+  }
+  .layout-dashboard .ant-layout {
+    width: auto;
+    flex-shrink: 1;
+    margin-left: 0px;
+    transform: translate(0, 0);
+  }
+  .layout-dashboard .header-control .sidebar-toggler {
+    display: none;
+  }
+  
+}
+@media (min-width: 768px) {
+  .layout-dashboard .ant-layout-header {
+    margin: 0px;
+    padding: 20px 30px;
+}
+  .layout-dashboard .header-control {
+    margin-top: 0;
+  }
+  .layout-dashboard .header-control .header-search {
+    margin: 0 7px;
+  }
+  .layout-dashboard .header-control .btn-sign-in span {
+    display: inline;
+  }
+  .profile-nav-bg {
+    margin-top: -87.8px;
+  }
+  .card-profile-head {
+    margin: -53px 24px 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-billing-info.ant-card .ant-card-body {
+    display: flex;
+  }
+  .layout-dashboard-rtl {
+    overflow: auto;
+  }
+  .layout-dashboard-rtl .ant-layout-sider.sider-primary {
+    margin: 20px 20px 0 0;
+    height: calc(100vh - 20px);
+  }
+  .layout-dashboard-rtl .ant-layout-sider.sider-primary {
+    right: 0;
+    left: auto;
+  }
+  .layout-dashboard-rtl .ant-layout-sider.sider-primary {
+    right: 0;
+    left: auto;
+  }
+  .layout-dashboard-rtl .ant-layout {
+    margin-right: 270px;
+    margin-left: 0;
+  }
+  .layout-dashboard-rtl .ant-layout-footer {
+    margin: 0 20px 20px 0;
+  }
+}
+@media (max-width:1366.98px) {
+  .ant-space.ant-space-horizontal.ant-space-align-baseline .ant-space.ant-space-horizontal.ant-space-align-baseline {
+      flex: 0 0 25%;
+      max-width: 25%;
+  }
+    .ant-card-head-wrapper .ant-card-extra {
+      flex-wrap: wrap;
+  }
+  span.ant-input-group-wrapper.ant-input-search.ant-input-search-large.ant-input-group-wrapper-lg {
+    width: auto;
+}
+}
+@media (max-width:1199.98px) {
+  .ant-space.ant-space-horizontal.ant-space-align-baseline .ant-space.ant-space-horizontal.ant-space-align-baseline {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+  }
+}
+@media (max-width:991px){
+  .signin-bg{
+    display: none !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .home-cards {
+    margin-bottom: 15px;
+}
+    .ant-space.ant-space-horizontal.ant-space-align-baseline .ant-space.ant-space-horizontal.ant-space-align-baseline {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .layout-dashboard.layout-dashboard-rtl .header-control {
+      justify-content: flex-end;
+    }
+    .ant-card-head-wrapper {
+        flex-direction: column !important;
+    }
+    .ant-card-head-wrapper .ant-card-extra {
+      padding-top: 0 !important;
+      flex-wrap: wrap; 
+      justify-content: end;
+      align-items: start;
+  }
+    .ant-card-head-wrapper .ant-card-head-title {
+        padding-bottom: 0 !important;
+        width: 100%;
+    }
+
+
+
+/* 01/06/2023 */
+  .layout-dashboard .header-control {
+    margin-top: 0;
+  }
+  .layout-dashboard .header-control {
+      margin-top: 0;
+  }
+  .ant-row {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+  }
+  .ant-col {
+      padding: 0 !important;
+  }
+  .ant-space.ant-space-horizontal.ant-space-align-baseline .ant-col {
+      padding: 0 5px !important;
+  }
+  .tablespace .ant-card-head-title {
+    width: 100%;
+    font-size: 16px;
+  }
+  .view-main-list {
+    padding-right: 0;
+    border-right: 0;
+    margin-bottom: 15px;
+  }
+  .layout-dashboard .header-control svg {
+      margin-right: 0 !important;
+  }
+  .ant-btn.ant-btn-link.sidebar-toggler {
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+  }
+  .ant-card-body {
+      padding: 12px !important;
+  }
+  .ant-modal {
+      top: 50px !important;
+  }
+  .card-profile-head .ant-card-head {
+      padding: 0 10px !important;
+  }
+  .card-profile-head .ant-card-head-wrapper .ant-avatar-group .avatar-info h4 {
+      font-size: 14px;
+  }
+  .card-profile-head .ant-card-head-wrapper .ant-avatar-group .avatar-info p {
+      font-size: 12px;
+  }
+}
+@media (max-width:575.98px){
+  .profile-nav-inner { 
+    flex-wrap: wrap;
+}
+  .ant-picker {
+    padding: 8px 4px !important; 
+}
+  .view-inner-cls h6 {
+      font-size: 11px;
+  }
+  .view-inner-cls h5 {
+      font-size: 12px;
+  }
+  .signin-box h5 {
+      font-size: 14px !important;
+      margin-bottom: 10px !important;
+  }
+  .signin-box h1 {
+      font-size: 16px !important;
+  }
+  .ant-btn {
+      padding: 5px 10px;
+      font-size: 12px;
+  }
+  th, td {
+      padding: 5px 8px !important;
+  }
+}
+@media  (max-width: 480px) {
+  .ant-space.ant-space-horizontal.ant-space-align-baseline .ant-space.ant-space-horizontal.ant-space-align-baseline {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  span.ant-input-group-wrapper.ant-input-search.ant-input-search-large.ant-input-group-wrapper-lg {
+    width: 100%;
+}
+.ant-input-wrapper.ant-input-group{
+  max-width: 100%;
+}
+}

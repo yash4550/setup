@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b67c2217.css",
+    "main.js": "/static/js/main.9f1c8223.js",
+    "static/media/bg-signup.jpg": "/static/media/bg-signup.bec2ba7098b7ca00f473.jpg",
+    "static/media/bg-light.jpg": "/static/media/bg-light.4e5972e238b6e57ce78f.jpg",
+    "static/media/info-card-2.jpg": "/static/media/info-card-2.9a5119d163ea1e152800.jpg",
+    "static/media/info-card-3.jpg": "/static/media/info-card-3.e73b3934a3c41fdb920d.jpg",
+    "static/media/face-1.jpg": "/static/media/face-1.d85d07a165e59830cbe2.jpg",
+    "static/media/eror-texi.png": "/static/media/eror-texi.3ebcae4fce2bfed13692.png",
+    "static/media/logo.svg": "/static/media/logo.59d57d99028ac5e247f9d4443023e4d8.svg",
+    "static/media/profile.svg": "/static/media/profile.4226699a6b4e1a1a9dd6637635c978bb.svg",
+    "static/media/loyalty.svg": "/static/media/loyalty.5961f26ea1fccdffe3db2081c31ea945.svg",
+    "static/media/notification.svg": "/static/media/notification.58eaf3641213e0a105ae4233ca3f38ec.svg",
+    "static/media/dashboard.svg": "/static/media/dashboard.3fb9e6bd487042746c3d94d061da482a.svg",
+    "static/media/email.svg": "/static/media/email.e9972d7cc50b0167c3e0136d6939a3d8.svg",
+    "static/media/content.svg": "/static/media/content.eb0357660327ea57fca2692b65982e90.svg",
+    "index.html": "/index.html",
+    "main.b67c2217.css.map": "/static/css/main.b67c2217.css.map",
+    "main.9f1c8223.js.map": "/static/js/main.9f1c8223.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b67c2217.css",
+    "static/js/main.9f1c8223.js"
+  ]
+}
